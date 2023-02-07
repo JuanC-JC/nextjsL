@@ -1,0 +1,49 @@
+@font-face {
+  font-display: swap;
+  font-family: supria-sans;
+  src: url("../assets/fonts/supria-sans/regular.otf") format("opentype");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: supria-sans;
+  font-weight: bold;
+  src: url("../assets/fonts/supria-sans/bold.otf") format("opentype");
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.stop-scrolling {
+  overflow-y: hidden;
+}
+
+body {
+  font-family: supria-sans;
+}
+
+input {
+  font-family: supria-sans;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+h1 {
+  line-height: 0.8;
+}
+
+h3 {
+  text-align: center;
+  font-size: 32px !important;
+  text-align: center;
+  line-height: 1.2 !important;
+  max-width: 1100px;
+  /* padding: 0px 24px; */
+}
+
+@media (min-width: 720px) {
+  h3 {
+    font-size: 48px !important;
+  }
+}
